@@ -1,0 +1,48 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+/**
+* Template Name: Vesperr - v2.0.0
+* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+.bg-purple{
+  background-color: #4B0082;
+}
+.color-white{
+  color: white;
+}
+.navbar-brand{
+  font-weight: bold;
+}
+.nav-active{
+  font-weight: bold;
+}
+.nav-link:hover{
+  background-color: #BA55D3;
+  color: white;
+  border-bottom: 5px solid #FF00FF;
+}
+.nav-active-li{
+	background-color: #8A2BE2;
+}
+.w-30{
+	width: 30%;
+}
